@@ -44,3 +44,5 @@ echo '<form action="" method="post">
         }
     }
     ?>
+    
+<link rel="stylesheet" href="../style.css">

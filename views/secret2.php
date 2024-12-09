@@ -7,6 +7,7 @@ if (isset($_GET['code']) && $_GET['code'] == '7DD4SX') {
 }
 ?>
 
+<link rel="stylesheet" href="../style.css">
 <body>
     <h1>Espace de commentaire</h1>
     <form method="GET">
