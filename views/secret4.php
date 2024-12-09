@@ -17,15 +17,15 @@ if (isset($_GET['code']) && $_GET['code'] === '8DE74C') {
             <legend>Choisis la bonne solution :</legend>
             <div>
                 <input type="radio" id="xss1" name="xss" value="scales" />
-                <label for="xss1">Scales</label>
+                <label for="xss1">Utiliser htmlspecialchars()</label>
             </div>
             <div>
                 <input type="radio" id="xss2" name="xss" value="horns" />
-                <label for="xss2">Horns</label>
+                <label for="xss2">Utiliser strip_tags()</label>
             </div>
             <div>
                 <input type="radio" id="xss3" name="xss" value="hornss" />
-                <label for="xss3">Horns</label>
+                <label for="xss3">Filtrer manuellement les script </label>
             </div>
         </fieldset>
 
