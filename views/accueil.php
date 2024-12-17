@@ -1,13 +1,24 @@
 <?php
-echo '
+echo '<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
 <body>
-    <h1>Bienvenue dans l\'Escape Game</h1>
-
+    <h1>Bienvenue dans Escape Game</h1>
+    <form action="" method="POST">
         <input type="submit" value="Commencer" />
     </form>
-        <h1>CODE SECRET : 7DD4SX</h1>
+
 </body>
 </html>';
-?>
 
-<link rel="stylesheet" href="../style.css">
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    header("Location: index.php?page=secret");
+    exit();
+}
+
+
+
+
+?>
